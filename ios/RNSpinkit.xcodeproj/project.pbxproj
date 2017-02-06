@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF9BF7181DEDD164004D44A9 /* RTSpinKitPulseRingAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9BF7171DEDD164004D44A9 /* RTSpinKitPulseRingAnimation.m */; };
 		D42CB36D1B25394600FD0AE2 /* RNSpinkitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D42CB36C1B25394600FD0AE2 /* RNSpinkitManager.m */; };
 		D42CB3701B253C0B00FD0AE2 /* RNSpinkit.m in Sources */ = {isa = PBXBuildFile; fileRef = D42CB36F1B253C0B00FD0AE2 /* RNSpinkit.m */; };
 		D4640D801B879C8500F8D7CB /* RTSpinKit9CubeGridAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D4640D5E1B879C8500F8D7CB /* RTSpinKit9CubeGridAnimation.m */; };
@@ -41,6 +42,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF9BF7161DEDD108004D44A9 /* RTSpinKitPulseRingAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTSpinKitPulseRingAnimation.h; sourceTree = "<group>"; };
+		AF9BF7171DEDD164004D44A9 /* RTSpinKitPulseRingAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitPulseRingAnimation.m; sourceTree = "<group>"; };
 		D42CB3511B2538DE00FD0AE2 /* libRNSpinkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNSpinkit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42CB36B1B25392F00FD0AE2 /* RNSpinkitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSpinkitManager.h; sourceTree = "<group>"; };
 		D42CB36C1B25394600FD0AE2 /* RNSpinkitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSpinkitManager.m; sourceTree = "<group>"; };
@@ -152,6 +155,8 @@
 				D4640D701B879C8500F8D7CB /* RTSpinKitPlaneAnimation.m */,
 				D4640D711B879C8500F8D7CB /* RTSpinKitPulseAnimation.h */,
 				D4640D721B879C8500F8D7CB /* RTSpinKitPulseAnimation.m */,
+				AF9BF7161DEDD108004D44A9 /* RTSpinKitPulseRingAnimation.h */,
+				AF9BF7171DEDD164004D44A9 /* RTSpinKitPulseRingAnimation.m */,
 				D4640D731B879C8500F8D7CB /* RTSpinKitThreeBounceAnimation.h */,
 				D4640D741B879C8500F8D7CB /* RTSpinKitThreeBounceAnimation.m */,
 				D4640D751B879C8500F8D7CB /* RTSpinKitWanderingCubesAnimation.h */,
@@ -221,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4640D8B1B879C8500F8D7CB /* RTSpinKitThreeBounceAnimation.m in Sources */,
+				AF9BF7181DEDD164004D44A9 /* RTSpinKitPulseRingAnimation.m in Sources */,
 				D4640D8A1B879C8500F8D7CB /* RTSpinKitPulseAnimation.m in Sources */,
 				D4640D811B879C8500F8D7CB /* RTSpinKitArcAltAnimation.m in Sources */,
 				D42CB36D1B25394600FD0AE2 /* RNSpinkitManager.m in Sources */,

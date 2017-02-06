@@ -1,7 +1,7 @@
 #import "RNSpinkit.h"
-#import <React/RCTConvert.h>
-#import <React/RCTBridgeModule.h>
-#import <React/UIView+React.h>
+#import "RCTConvert.h"
+#import "RCTBridgeModule.h"
+#import "UIView+React.h"
 
 @implementation RNSpinkit
 {
@@ -66,6 +66,8 @@
       style = RTSpinKitViewStyleWanderingCubes;
    else if ([type isEqual:@"Pulse"])
       style = RTSpinKitViewStylePulse;
+   else if ([type isEqual:@"PulseRing"])
+      style = RTSpinKitViewStylePulseRing;
    else if ([type isEqual:@"ChasingDots"])
       style = RTSpinKitViewStyleChasingDots;
    else if ([type isEqual:@"ThreeBounce"])

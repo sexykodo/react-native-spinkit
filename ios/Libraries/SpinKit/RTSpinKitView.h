@@ -31,6 +31,7 @@ typedef NS_ENUM(NSInteger, RTSpinKitViewStyle) {
     RTSpinKitViewStyleWave,
     RTSpinKitViewStyleWanderingCubes,
     RTSpinKitViewStylePulse,
+    RTSpinKitViewStylePulseRing,
     RTSpinKitViewStyleChasingDots,
     RTSpinKitViewStyleThreeBounce,
     RTSpinKitViewStyleCircle,

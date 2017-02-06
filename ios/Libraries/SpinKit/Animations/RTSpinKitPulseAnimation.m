@@ -40,10 +40,10 @@
     
     CAKeyframeAnimation *scaleAnim = [CAKeyframeAnimation animationWithKeyPath:@"transform"];
     scaleAnim.values = @[
-        [NSValue valueWithCATransform3D:CATransform3DMakeScale(0.0, 0.0, 0.0)],
-        [NSValue valueWithCATransform3D:CATransform3DMakeScale(1.0, 1.0, 0.0)]
-    ];
-
+                         [NSValue valueWithCATransform3D:CATransform3DMakeScale(0.0, 0.0, 0.0)],
+                         [NSValue valueWithCATransform3D:CATransform3DMakeScale(1.0, 1.0, 0.0)]
+                         ];
+    
     CAKeyframeAnimation *opacityAnim = [CAKeyframeAnimation animationWithKeyPath:@"opacity"];
     opacityAnim.values = @[@(1.0), @(0.0)];
     
@@ -54,7 +54,7 @@
     animGroup.duration = 1.0;
     animGroup.animations = @[scaleAnim, opacityAnim];
     animGroup.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
-
+    
     [layer addSublayer:circle];
     [circle addAnimation:animGroup forKey:@"spinkit-anim"];
 }
