@@ -15,12 +15,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/maxs15/react-native-spinkit.git"
+    "url": "git://github.com/sexykodo/react-native-spinkit.git"
   },
   "author": {
-    "name": "Maxime Mezrahi",
-    "email": "maxime.mezrahi@gmail.com",
-    "url": "https://github.com/maxs15"
+    "name": "Mauro Visintin",
+    "email": "visintin1.mauro@gmail.com",
+    "url": "https://github.com/sexykodo"
   },
   "rnpm": {
 		"commands": {
