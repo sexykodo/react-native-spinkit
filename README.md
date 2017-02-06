@@ -1,7 +1,6 @@
-# react-native-spinkit
+# react-native-spinkit-sk
 
-[![npm](https://img.shields.io/npm/dm/react-native-spinkit.svg?maxAge=2592000)]()
-[![npm](https://img.shields.io/npm/dt/react-native-spinkit.svg?maxAge=2592000)]()   
+Fork of react-native-spinkit
 
 A collection of animated loading indicators   
 React native port of [SpinKit](http://tobiasahlin.com/spinkit/).
@@ -11,14 +10,14 @@ React native port of [SpinKit](http://tobiasahlin.com/spinkit/).
 
 ## Getting started
 
-`npm install react-native-spinkit@latest --save`
+`npm install react-native-spinkit-sk@latest --save`
 For RN < 0.40 support, use react-native-spinkit@0.1.5
 
 ##### Automatically link the library
 `react-native link`
 
 > For RN projects < 0.29 link the library automatically using [RNPM](https://github.com/rnpm/rnpm)
-`rnpm link react-native-spinkit`
+`rnpm link react-native-spinkit-sk`
 
 ##### Manual linking - IOS
 Follow the wiki available [here](https://github.com/maxs15/react-native-spinkit/wiki/Manual-linking---IOS)
@@ -45,6 +44,7 @@ Check [index.ios.js](https://github.com/maxs15/react-native-spinkit/blob/master/
 - Wave
 - WanderingCubes
 - Pulse
+- PulseRing
 - ChasingDots
 - ThreeBounce
 - Circle
